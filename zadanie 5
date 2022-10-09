@@ -1,0 +1,9 @@
+side_a = float(input('Введите сторону A: '))
+side_b = float(input('Введите сторону B: '))
+side_c = float(input('Введите сторону C: '))
+side_d = float(input('Введите сторону D: '))
+ 
+if ((side_a <= side_c) and (side_b <= side_d)) or ((side_a <= side_d) and (side_b <= side_c)):
+    print('Да, может')
+else:
+    print('Нет, не может')

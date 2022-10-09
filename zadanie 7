@@ -1,0 +1,5 @@
+print('определяем отрицательное ли число и если отрицательное, то ищем среднее арифм., если нет, то среднее геометр. ')
+number1 = float(input())
+number2 = float(input())
+print((number1 + number2) / 2)
+print((number1 * number2))
